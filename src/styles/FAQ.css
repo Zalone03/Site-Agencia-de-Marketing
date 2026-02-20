@@ -1,0 +1,178 @@
+.faq {
+  padding: 140px 20px;
+  background: linear-gradient(180deg, var(--dark), #050505);
+  position: relative;
+  color: var(--light);
+  overflow: hidden;
+}
+
+.faq::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background:
+    radial-gradient(circle, var(--primary-light) 2px, transparent 2px),
+    radial-gradient(circle, var(--secondary-light) 2px, transparent 2px);
+  background-size: 50px 50px;
+  background-position: 0 0, 25px 25px;
+  mask-image: linear-gradient(to bottom, transparent 0%, black 15%, black 85%, transparent 100%);
+  -webkit-mask-image: linear-gradient(to bottom, transparent 0%, black 15%, black 85%, transparent 100%);
+  pointer-events: none;
+  z-index: 0;
+}
+
+.faq-container {
+  display: flex;
+  gap: 60px;
+  max-width: 1200px;
+  margin: 0 auto;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  position: relative;
+  z-index: 1;
+}
+
+.faq-info {
+  flex: 1 1 350px;
+}
+
+.faq-info h2 {
+  font-size: 42px;
+  font-weight: 900;
+  margin-bottom: 20px;
+  background: linear-gradient(90deg, var(--primary), var(--secondary));
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.faq-info p {
+  font-size: 18px;
+  line-height: 1.7;
+  color: var(--text-muted);
+}
+
+.faq-grid {
+  flex: 2 1 600px;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 28px;
+}
+
+.faq details {
+  background: var(--dark-light);
+  border-radius: 20px;
+  border: 1px solid #222;
+  overflow: hidden;
+  transition: transform 0.4s ease, box-shadow 0.4s ease, border 0.4s ease;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.7);
+  cursor: pointer;
+  perspective: 1000px;
+  transform-style: preserve-3d;
+  transform: translateY(30px);
+  opacity: 0;
+}
+
+.faq details.fade-in {
+  transform: translateY(0) rotateX(0deg);
+  opacity: 1;
+  transition: transform 0.6s ease, opacity 0.6s ease;
+}
+
+.faq details:hover {
+  border-color: var(--primary);
+  transform: translateY(-6px) rotateX(2deg) scale(1.03);
+  box-shadow: 0 40px 100px rgba(111, 5, 161, 0.35);
+}
+
+.faq summary {
+  list-style: none;
+  cursor: pointer;
+  padding: 26px 30px;
+  font-size: 18px;
+  font-weight: 800;
+  position: relative;
+  color: var(--light);
+  transition: color 0.3s ease;
+}
+
+.faq summary:hover {
+  color: var(--primary);
+}
+
+.faq summary::-webkit-details-marker {
+  display: none;
+}
+
+.faq summary::after {
+  content: "+";
+  position: absolute;
+  right: 28px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 28px;
+  font-weight: 900;
+  color: var(--primary);
+  transition: transform 0.3s, content 0.3s;
+}
+
+.faq details[open] summary::after {
+  content: "–";
+  transform: translateY(-50%) rotate(180deg);
+}
+
+.faq p {
+  padding: 0 30px 30px;
+  margin: 0;
+  font-size: 16px;
+  line-height: 1.8;
+  color: var(--text-muted);
+  animation: faqTextFade 0.5s ease;
+}
+
+@keyframes faqTextFade {
+  from {
+    opacity: 0;
+    transform: translateY(-8px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@media (max-width: 900px) {
+  .faq-container {
+    flex-direction: column;
+    gap: 40px;
+  }
+
+  .faq-info h2 {
+    font-size: 32px;
+  }
+
+  .faq-info p {
+    font-size: 16px;
+  }
+
+  .faq-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 600px) {
+
+  .faq {
+    padding: 40px 20px;
+  }
+
+  .faq::before {
+    mask-image: linear-gradient(to bottom, transparent 0%, black 25%, black 75%, transparent 100%);
+    -webkit-mask-image: linear-gradient(to bottom, transparent 0%, black 25%, black 75%, transparent 100%);
+  }
+
+  .faq-info {
+    flex: 1 1;
+  }
+}
