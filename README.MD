@@ -1,89 +1,115 @@
-🚀 Agência de Marketing Digital — Foco em Conversão
+# 🚀 Agência de Marketing Digital — Foco em Conversão
 
+![Preview do Projeto](image.png)
 
+🔗 **Acesse o projeto online:**  
+https://landpagereacct.netlify.app/
 
-Uma aplicação web moderna desenvolvida em React, criada para apresentar os serviços de uma agência de marketing digital com foco total em performance, geração de leads e aumento de conversão.
+---
 
-O projeto foi construído com arquitetura escalável, componentização reutilizável e foco em UX estratégica, garantindo alta performance e experiência fluida.
+## 📌 Sobre o Projeto
 
-✨ Funcionalidades
+Aplicação web moderna desenvolvida em **React**, criada para apresentar os serviços de uma agência de marketing digital com foco total em:
 
-📈 Seção de serviços com foco em conversão
-🎥 Área dedicada a criativos e vídeos para alta performance
-🧠 Estrutura orientada a gatilhos mentais e prova social
-📊 Sessão estratégica para apresentação de resultados e métricas
-📱 Totalmente responsivo (desktop, tablet e mobile)
-⚡ Alta performance e carregamento otimizado
-🎯 Call-to-Actions estrategicamente posicionados
+- 📈 Performance
+- 🎯 Geração de leads
+- 💰 Aumento de conversão
 
-🧩 Tecnologias Utilizadas
+O projeto foi construído com **arquitetura escalável**, componentização reutilizável e foco em **UX estratégica**, garantindo alta performance e experiência fluida.
 
-React — Biblioteca principal para construção da interface
-Vite / CRA — Ambiente de desenvolvimento
-JavaScript (ES6+) — Lógica e interatividade
-CSS3 / Styled Components / Tailwind (caso aplicável) — Estilização moderna e responsiva
-React Hooks — Gerenciamento de estado e ciclo de vida
-React Router — Navegação entre páginas
-Deploy via GitHub Pages / Vercel / Netlify
+---
 
-🎯 Estratégia do Projeto
+## ✨ Funcionalidades
+
+- 📈 Seção de serviços com foco em conversão  
+- 🎥 Área dedicada a criativos e vídeos de alta performance  
+- 🧠 Estrutura orientada a gatilhos mentais e prova social  
+- 📊 Seção estratégica para apresentação de resultados e métricas  
+- 📱 Totalmente responsivo (desktop, tablet e mobile)  
+- ⚡ Carregamento otimizado  
+- 🎯 Call-to-Actions estrategicamente posicionados  
+
+---
+
+## 🧩 Tecnologias Utilizadas
+
+- **React** — Construção da interface  
+- **Vite / Create React App** — Ambiente de desenvolvimento  
+- **JavaScript (ES6+)** — Lógica e interatividade  
+- **CSS3 / Styled Components / Tailwind** — Estilização moderna e responsiva  
+- **React Hooks** — Gerenciamento de estado  
+- **React Router** — Navegação entre páginas  
+- **Deploy via Netlify**  
+
+---
+
+## 🎯 Estratégia do Projeto
 
 O site foi desenvolvido com foco em:
 
-Estrutura persuasiva (copy orientada à conversão)
+- Estrutura persuasiva (copy orientada à conversão)  
+- Hierarquia visual clara  
+- Design escuro moderno (Dark UI)  
+- Prova social e autoridade  
+- Destaque para criativos e vídeos estratégicos  
+- Experiência centrada no usuário  
 
-Hierarquia visual clara
+Cada seção foi planejada para conduzir o visitante até a ação principal:
 
-Design escuro moderno (dark UI)
+> **Solicitar contato ou orçamento**
 
-Prova social e autoridade
+---
 
-Destaque para criativos e vídeos de alta performance
+## 📊 Estrutura de Seções
 
-Experiência centrada no usuário
+- ✔️ Hero Section com proposta de valor clara  
+- ✔️ Serviços principais  
+- ✔️ Criativos/Vídeos focados em vendas  
+- ✔️ Diferenciais competitivos  
+- ✔️ Prova social / números da agência  
+- ✔️ Call-to-Action final  
 
-Cada seção foi pensada para conduzir o visitante até a ação principal: solicitar contato ou orçamento.
+---
 
-📊 Estrutura de Seções
+## 📱 Responsividade
 
-✔️ Hero Section com proposta de valor clara
-✔️ Serviços principais
-✔️ Criativos/Vídeos focados em vendas
-✔️ Diferenciais competitivos
-✔️ Prova social / números da agência
-✔️ Call-to-Action final
+- Layout flexível e adaptável  
+- Interface otimizada para dispositivos móveis  
+- Elementos clicáveis com boa área de toque  
+- Performance mantida em conexões móveis  
 
-📱 Responsividade
+---
 
-Layout flexível e adaptável
-Design otimizado para dispositivos móveis
-Elementos clicáveis com boa área de toque
-Performance mantida em conexões móveis
+## 🧠 Conceito
 
-🧠 Conceito
+Projeto desenvolvido com foco em:
 
-Este projeto foi desenvolvido com foco em:
+- Marketing orientado a dados  
+- Design estratégico  
+- Performance e escalabilidade  
+- Componentização limpa e reutilizável  
+- Estrutura preparada para integração futura com backend ou CMS  
 
-Marketing orientado a dados
+---
 
-Design estratégico
+## 🔮 Possíveis Evoluções
 
-Performance e escalabilidade
+- Integração com CRM  
+- Área administrativa  
+- Blog com SEO otimizado  
+- Integração com Meta Ads / Google Ads API  
+- Dashboard de métricas  
 
-Componentização limpa e reutilizável
+---
 
-Estrutura preparada para integração futura com backend ou CMS
+## 📈 Objetivo
 
-🔮 Possíveis Evoluções
+Construir uma estrutura digital capaz de gerar:
 
-Integração com CRM
+- Leads qualificados  
+- Conversão previsível  
+- Crescimento sustentável  
 
-Área administrativa
+---
 
-Blog com SEO otimizado
-
-Integração com Meta Ads / Google Ads API
-
-Dashboard de métricas
-
-Desenvolvido com foco em conversão, performance e crescimento previsível.
+Desenvolvido com foco em **conversão, performance e crescimento previsível**.

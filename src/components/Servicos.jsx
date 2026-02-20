@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
-import servico1 from "../assets/images/servico1.webp";
-import servico2 from "../assets/images/servico2.webp";
-import servico3 from "../assets/images/servico3.webp";
+import servico1 from "../assets/images/servico1.png";
+import servico2 from "../assets/images/servico2.png";
+import servico3 from "../assets/images/servico3.png";
 
 import "../styles/Servicos.css";
 
